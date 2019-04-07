@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>906647299282-d91ncoammai1gruve0o85u3clc1jbd2m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.906647299282-d91ncoammai1gruve0o85u3clc1jbd2m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCuXxeR9EMsp_0TxA1R5vMQdTUwgPh1nzo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>906647299282</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.priscillaikhena.MedCare</string>
+	<key>PROJECT_ID</key>
+	<string>medcare-c3184</string>
+	<key>STORAGE_BUCKET</key>
+	<string>medcare-c3184.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:906647299282:ios:85457b0a21f13b17</string>
+	<key>DATABASE_URL</key>
+	<string>https://medcare-c3184.firebaseio.com</string>
+</dict>
+</plist>
