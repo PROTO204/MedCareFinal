@@ -1,11 +1,12 @@
 //
 //  LogInViewController.swift
-//  Flash Chat
+//  MedCare
 //
 //  This is the view controller where users login
 
 
 import UIKit
+import Firebase
 
 
 class LogInViewController: UIViewController {
@@ -28,6 +29,19 @@ class LogInViewController: UIViewController {
 
         
         //TODO: Log in the user
+        //TODO: Log in the user
+        Auth.auth().signIn(withEmail: emailTextfield.text!, password: passwordTextfield.text!) { (user, error) in
+            
+            if error != nil{
+                print(error!)
+            }
+                
+            else {
+                print("Log in was successful")
+                self.performSegue(withIdentifier: "goToHomePage", sender: self)
+            }
+        }
+
         
         
     }

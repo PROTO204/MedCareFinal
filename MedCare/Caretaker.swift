@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class Caretaker {
+    
+    var careTakerName : String = "" //each Caretaker will have a name
+    var patients = ["String"] //each Caretaker will have an array of patients they are taking care of.
+    
+}

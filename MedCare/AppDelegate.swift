@@ -4,9 +4,12 @@
 //
 //  Created by Priscilla Ikhena on 03/04/2019.
 //  Copyright © 2019 Priscilla Ikhena. All rights reserved.
+
+//First file that gets called
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //configuring Firebase
+        FirebaseApp.configure()
+        let myDatabase = Database.database().reference() //a reference to a brandnew database
+        myDatabase.setValue("We have data!")
+        
         return true
     }
 

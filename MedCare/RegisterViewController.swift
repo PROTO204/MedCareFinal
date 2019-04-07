@@ -1,6 +1,6 @@
 //
 //  RegisterViewController.swift
-//  Flash Chat
+//  MedCare
 //
 //  This is the View Controller which registers new users with Firebase
 //
@@ -36,19 +36,18 @@ class RegisterViewController: UIViewController {
         //this is the code for authentication
         //creates a user in the firebase 
         Auth.auth().createUser(withEmail: emailTextfield.text!, password: passwordTextfield.text!) { (user, error) in
+            
             if error != nil {
-                print("there was an error")
+                print(error!)
+            
             }
             
             else {
                 //success
-                print("registeration successful")
-                //perform segway to take you to the next window
-                
-                self.performSegue(withIdentifier: "goToChat", sender: self) //we add self. in frontun because we are inside a closure.
+                print ("Registeration Successful")
+               self.performSegue(withIdentifier: "goToHomePage" , sender: self)
             }
         }
-        
 
         
         
