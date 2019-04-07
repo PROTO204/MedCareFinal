@@ -189,6 +189,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mre-2D-YeA">
+                                <rect key="frame" x="275" y="92" width="69" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Updates"/>
+                                <connections>
+                                    <segue destination="7Wa-2K-L8P" kind="show" id="KVp-jK-HAh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Q5a-ZF-0C1"/>
@@ -203,7 +212,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="maQ-KE-leO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3069.5999999999999" y="175.86206896551727"/>
+            <point key="canvasLocation" x="3144.8000000000002" y="143.47826086956522"/>
+        </scene>
+        <!--Dispenser Update-->
+        <scene sceneID="Etq-M7-c94">
+            <objects>
+                <viewController id="7Wa-2K-L8P" customClass="DispenserUpdate" customModule="MedCare" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8XG-kC-Sgp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dispenser Updates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sy-sc-rkD">
+                                <rect key="frame" x="16" y="64" width="218" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="xS1-VB-UgQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rY7-Df-yxi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4105" y="143"/>
         </scene>
         <!--Log In-->
         <scene sceneID="ys6-1G-9Cg">

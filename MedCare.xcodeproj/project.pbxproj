@@ -18,6 +18,7 @@
 		5E1847862257742200AACA98 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1847852257742200AACA98 /* WelcomeView.swift */; };
 		5E5D90C92257A4FD0003610B /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D90C82257A4FD0003610B /* Patient.swift */; };
 		5E5D90CB2257A5080003610B /* Caretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D90CA2257A5080003610B /* Caretaker.swift */; };
+		5EFCF315225A60640098CEAF /* dispenserUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCF314225A60640098CEAF /* dispenserUpdate.swift */; };
 		6659A48591027E7E3F02B804 /* Pods_MedCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B0EF1E0AE9F67CFC39CDE1 /* Pods_MedCare.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		5E1847852257742200AACA98 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		5E5D90C82257A4FD0003610B /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		5E5D90CA2257A5080003610B /* Caretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caretaker.swift; sourceTree = "<group>"; };
+		5EFCF314225A60640098CEAF /* dispenserUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dispenserUpdate.swift; sourceTree = "<group>"; };
 		6274E5E90BB5C424030EB641 /* Pods-MedCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedCare.release.xcconfig"; path = "Target Support Files/Pods-MedCare/Pods-MedCare.release.xcconfig"; sourceTree = "<group>"; };
 		71B0EF1E0AE9F67CFC39CDE1 /* Pods_MedCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 				5E1847812254DDD400AACA98 /* LogInViewController.swift */,
 				5E1847832254E73B00AACA98 /* UserHomeViewController.swift */,
 				5E1847852257742200AACA98 /* WelcomeView.swift */,
+				5EFCF314225A60640098CEAF /* dispenserUpdate.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EFCF315225A60640098CEAF /* dispenserUpdate.swift in Sources */,
 				5E1847862257742200AACA98 /* WelcomeView.swift in Sources */,
 				5E1847822254DDD400AACA98 /* LogInViewController.swift in Sources */,
 				5E1847802254DDCC00AACA98 /* RegisterViewController.swift in Sources */,
