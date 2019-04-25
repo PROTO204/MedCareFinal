@@ -16,9 +16,14 @@
 		5E1847822254DDD400AACA98 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1847812254DDD400AACA98 /* LogInViewController.swift */; };
 		5E1847842254E73B00AACA98 /* UserHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1847832254E73B00AACA98 /* UserHomeViewController.swift */; };
 		5E1847862257742200AACA98 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1847852257742200AACA98 /* WelcomeView.swift */; };
+		5E2D1AF2226F9307005BA903 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D1AF1226F9307005BA903 /* Alert.swift */; };
 		5E5D90C92257A4FD0003610B /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D90C82257A4FD0003610B /* Patient.swift */; };
 		5E5D90CB2257A5080003610B /* Caretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D90CA2257A5080003610B /* Caretaker.swift */; };
-		5EFCF315225A60640098CEAF /* dispenserUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCF314225A60640098CEAF /* dispenserUpdate.swift */; };
+		5E7626B12270B5DA00E22E6F /* chartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7626B02270B5DA00E22E6F /* chartViewController.swift */; };
+		5EDC3F052264C25E0012DCEE /* PatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC3F042264C25E0012DCEE /* PatientTableViewCell.swift */; };
+		5EDC3F072264CC760012DCEE /* PatientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC3F062264CC760012DCEE /* PatientTableViewController.swift */; };
+		5EDC3F092264DBA90012DCEE /* patientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC3F082264DBA90012DCEE /* patientDetailViewController.swift */; };
+		5EFCF317225A78A40098CEAF /* AddNewPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCF316225A78A40098CEAF /* AddNewPatient.swift */; };
 		6659A48591027E7E3F02B804 /* Pods_MedCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B0EF1E0AE9F67CFC39CDE1 /* Pods_MedCare.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,9 +40,14 @@
 		5E1847812254DDD400AACA98 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		5E1847832254E73B00AACA98 /* UserHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeViewController.swift; sourceTree = "<group>"; };
 		5E1847852257742200AACA98 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		5E2D1AF1226F9307005BA903 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		5E5D90C82257A4FD0003610B /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		5E5D90CA2257A5080003610B /* Caretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caretaker.swift; sourceTree = "<group>"; };
-		5EFCF314225A60640098CEAF /* dispenserUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dispenserUpdate.swift; sourceTree = "<group>"; };
+		5E7626B02270B5DA00E22E6F /* chartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartViewController.swift; sourceTree = "<group>"; };
+		5EDC3F042264C25E0012DCEE /* PatientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTableViewCell.swift; sourceTree = "<group>"; };
+		5EDC3F062264CC760012DCEE /* PatientTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTableViewController.swift; sourceTree = "<group>"; };
+		5EDC3F082264DBA90012DCEE /* patientDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patientDetailViewController.swift; sourceTree = "<group>"; };
+		5EFCF316225A78A40098CEAF /* AddNewPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPatient.swift; sourceTree = "<group>"; };
 		6274E5E90BB5C424030EB641 /* Pods-MedCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedCare.release.xcconfig"; path = "Target Support Files/Pods-MedCare/Pods-MedCare.release.xcconfig"; sourceTree = "<group>"; };
 		71B0EF1E0AE9F67CFC39CDE1 /* Pods_MedCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -118,7 +128,12 @@
 				5E1847812254DDD400AACA98 /* LogInViewController.swift */,
 				5E1847832254E73B00AACA98 /* UserHomeViewController.swift */,
 				5E1847852257742200AACA98 /* WelcomeView.swift */,
-				5EFCF314225A60640098CEAF /* dispenserUpdate.swift */,
+				5EFCF316225A78A40098CEAF /* AddNewPatient.swift */,
+				5EDC3F042264C25E0012DCEE /* PatientTableViewCell.swift */,
+				5EDC3F062264CC760012DCEE /* PatientTableViewController.swift */,
+				5EDC3F082264DBA90012DCEE /* patientDetailViewController.swift */,
+				5E2D1AF1226F9307005BA903 /* Alert.swift */,
+				5E7626B02270B5DA00E22E6F /* chartViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -175,6 +190,11 @@
 				TargetAttributes = {
 					5E18475D2254CEF900AACA98 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -243,6 +263,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MedCare/Pods-MedCare-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
@@ -254,6 +275,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
@@ -272,14 +294,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EFCF315225A60640098CEAF /* dispenserUpdate.swift in Sources */,
+				5EFCF317225A78A40098CEAF /* AddNewPatient.swift in Sources */,
+				5EDC3F092264DBA90012DCEE /* patientDetailViewController.swift in Sources */,
 				5E1847862257742200AACA98 /* WelcomeView.swift in Sources */,
 				5E1847822254DDD400AACA98 /* LogInViewController.swift in Sources */,
 				5E1847802254DDCC00AACA98 /* RegisterViewController.swift in Sources */,
 				5E5D90CB2257A5080003610B /* Caretaker.swift in Sources */,
+				5E2D1AF2226F9307005BA903 /* Alert.swift in Sources */,
+				5EDC3F072264CC760012DCEE /* PatientTableViewController.swift in Sources */,
 				5E1847842254E73B00AACA98 /* UserHomeViewController.swift in Sources */,
+				5EDC3F052264C25E0012DCEE /* PatientTableViewCell.swift in Sources */,
 				5E1847622254CEF900AACA98 /* AppDelegate.swift in Sources */,
 				5E5D90C92257A4FD0003610B /* Patient.swift in Sources */,
+				5E7626B12270B5DA00E22E6F /* chartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

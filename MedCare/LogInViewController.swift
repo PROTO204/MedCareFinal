@@ -39,6 +39,10 @@ class LogInViewController: UIViewController {
             else {
                 print("Log in was successful")
                 self.performSegue(withIdentifier: "goToHomePage", sender: self)
+                    }
+                
+                
+               // self.performSegue(withIdentifier: "goToHomePage", sender: self)
             }
         }
 
@@ -49,4 +53,4 @@ class LogInViewController: UIViewController {
 
 
     
-}  
+
